@@ -4,7 +4,7 @@ export default function CurrentWeather() {
   return (
     <div className="CurrentWeather">
       <h1 class="current-city" id="current-city">
-        New York
+        New York City
       </h1>
       <p class="current-details">
         <span id="current-date"></span>, <span id="description"></span>
