@@ -3,7 +3,7 @@ import Header from "./Header.js";
 import CurrentWeather from "./CurrentWeather.js";
 import Footer from "./Footer.js";
 
-export default function App() {
+function App() {
   return (
     <div className="App">
       <Header />
@@ -12,3 +12,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;
